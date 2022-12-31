@@ -1,0 +1,16 @@
+@mixin burgerBtn {
+	position: absolute;
+	right: 0;
+	height: 0.3rem;
+	content: '';
+	background-color: $pure-white;
+	transition: width 0.3s;
+}
+
+// $bgImg jest zmienna
+@mixin heroImages($bgImg) {
+	background-image: $blue-gradient, url($bgImg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
